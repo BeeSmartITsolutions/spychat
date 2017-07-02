@@ -9,12 +9,6 @@ from spy_variable import spy, validate, Spy, ChatMessage, friends  # file_import
 
 STATUS_MESSAGES = ['My name is X, Mr. X', 'Work in Silence, let your success make the noise', 'Never Give Up']
 
-
-print "Hello! Let\'s get started"
-
-question = "Do you want to continue as " + spy.salutation + " " + spy.name + " (Y/N)? "
-existing = raw_input(question)
-
 # add status function start
 
 def add_status():
